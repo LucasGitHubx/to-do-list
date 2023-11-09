@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url("https://images.unsplash.com/photo-1515405295579-ba7b45403062?q=80&w=1760&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+main{
+    width: 90%;
+    max-width: 500px;
+    min-height: 50vh;
+    background-color: rgb(255, 255, 255);
+    border: 3px solid black;
+    border-radius: 15px;
+    padding: 1rem 1rem;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+}
+main form{
+    width: 95%;
+
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+form input {
+    height: 25px;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 15px;
+}
+form button{
+    width: 50%;
+    margin: 0 auto;
+    padding: 10px;
+    background-color: rgb(35, 35, 247);
+    border: none;
+    border-radius: 10px;
+    color: white;
+}
+
+/* ELEMENTS ARE GOING TO BE ADDED USING JAVASCRIPT */
+main .lista-tareas{
+    width: 95%;
+    font-size: 13px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+.lista-tareas .tarea{
+    width: 100%;
+    height: fit-content;
+    outline: 2px solid black;
+    border-radius: 10px;
+    padding: 5px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.lista-tareas .tarea-botones{
+    display: flex;
+    height: fit-content;
+    gap: 1rem;
+}
+.lista-tareas .tarea-botones button{
+    width: 25px;
+    height: 25px;
+    border: none;
+    cursor: pointer;
+}
+
+.lista-tareas .tarea-botones button:active{
+    background-color: rgb(194, 191, 191);
+}
+
