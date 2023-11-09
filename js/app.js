@@ -54,17 +54,6 @@ button.addEventListener("click", (e) => {
                 funcionBotonCompletar(tarea, "no-completado");
             }
         });
-        // const btnConfirmar = document.querySelectorAll("button.confirmar");
-        // const btnEliminar = document.querySelectorAll("button.eliminar");
-
-        // for(let i=0; i<btnConfirmar.length; i++){ 
-        //     btnEliminar[i].addEventListener("click", (e) => {
-        //         const tarea = e.target.parentElement.parentElement.parentElement;
-        //         tarea.remove();
-
-        //         console.log("hola");
-        //     });
-        // }
     }
 });
 
